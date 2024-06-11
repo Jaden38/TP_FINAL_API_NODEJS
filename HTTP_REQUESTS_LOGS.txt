@@ -1,0 +1,107 @@
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5000/users/authenticate
+Method: POST
+Request Headers:
+{
+  "content-length": "57",
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+  "Content-Type": "application/json"
+}
+Request Body:
+{
+  "username": "testuser",
+  "password": "password123"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5000/api/stations
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU2Yzc1YzdjMmU1MWFmMTgyOTUiLCJpYXQiOjE3MTgxMDE3NDUsImV4cCI6MTcxODEwNTM0NX0.iHpk5pkLUHLe-HPfe1NiyhbQHpNXr9dZMYylLIX8YhE"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5000/api/stations/666825d31bdc3eb7e0e7eb31
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU2Yzc1YzdjMmU1MWFmMTgyOTUiLCJpYXQiOjE3MTgxMDE3NDUsImV4cCI6MTcxODEwNTM0NX0.iHpk5pkLUHLe-HPfe1NiyhbQHpNXr9dZMYylLIX8YhE"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5000/api/stations/666825d31bdc3eb7e0e7eb31
+Method: DELETE
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU2Yzc1YzdjMmU1MWFmMTgyOTUiLCJpYXQiOjE3MTgxMDE3NDUsImV4cCI6MTcxODEwNTM0NX0.iHpk5pkLUHLe-HPfe1NiyhbQHpNXr9dZMYylLIX8YhE"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5000/api/stations
+Method: POST
+Request Headers:
+{
+  "content-length": "1050",
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU2Yzc1YzdjMmU1MWFmMTgyOTUiLCJpYXQiOjE3MTgxMDE3NDUsImV4cCI6MTcxODEwNTM0NX0.iHpk5pkLUHLe-HPfe1NiyhbQHpNXr9dZMYylLIX8YhE"
+}
+Request Body:
+{
+  "_id": "666825d31bdc3eb7e0e7eb31",
+  "name": "Gare de Grenoble",
+  "cities": [
+    {
+      "_id": "666825d31bdc3eb7e0e7eb3d",
+      "name": "Grenoble",
+      "stations": [
+        "666825d31bdc3eb7e0e7eb31"
+      ],
+      "lines": [
+        "666825d31bdc3eb7e0e7eb28"
+      ],
+      "createdAt": "2024-06-11T10:24:19.390Z",
+      "updatedAt": "2024-06-11T10:24:19.390Z",
+      "__v": 2
+    }
+  ],
+  "lines": [
+    {
+      "_id": "666825d31bdc3eb7e0e7eb28",
+      "name": "Ligne Grenoble-Lyon",
+      "nature": "tourisme",
+      "stations": [
+        "666825d31bdc3eb7e0e7eb2c",
+        "666825d31bdc3eb7e0e7eb30",
+        "666825d31bdc3eb7e0e7eb31"
+      ],
+      "cities": [
+        "666825d31bdc3eb7e0e7eb39",
+        "666825d31bdc3eb7e0e7eb3b",
+        "666825d31bdc3eb7e0e7eb3c",
+        "666825d31bdc3eb7e0e7eb3d"
+      ],
+      "createdAt": "2024-06-11T10:24:19.178Z",
+      "updatedAt": "2024-06-11T10:24:19.178Z",
+      "__v": 6
+    }
+  ],
+  "createdAt": "2024-06-11T10:24:19.354Z",
+  "updatedAt": "2024-06-11T10:24:19.354Z",
+  "__v": 1
+}
